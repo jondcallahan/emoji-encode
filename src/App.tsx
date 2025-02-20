@@ -206,6 +206,24 @@ const EmojiEncoder = () => {
           )}
         </CardContent>
       </Card>
+
+      <p className="text-md text-gray-900">
+        Made by{" "}
+        <a
+          href="https://github.com/jondcallahan"
+          className="underline"
+          target="_blank"
+        >
+          Jon Callahan
+        </a>{" "}
+        <a
+          href="https://github.com/jondcallahan/emoji-encode"
+          className="underline"
+          target="_blank"
+        >
+          View on GitHub
+        </a>
+      </p>
     </div>
   );
 };
